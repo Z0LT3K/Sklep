@@ -25,13 +25,7 @@ namespace Sklep
 
         }
 
-        private List<string> ConvertGenres(ConvertFromStringArgs args)
-        {
-            var genreString = args.Row.GetField("Genres");
-            return genreString.Split(";").ToList();
-
-
-        }
+        
     }
 
 }
